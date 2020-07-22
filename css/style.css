@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #f4f4f4;
+    background: url("../image/bg.jpg") ;
+   background-position: left center/cover;
+    background-repeat: no-repeat;
+   background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 220px;
+}
+
+h3, h1{
+    margin-bottom: 15px;
+}
+
+.box{
+    border: 1px solid #dedede;
+    padding: 8px;
+    margin: 18px;
+    display: inline-block;
+    font-size: 30px;
+}
+
